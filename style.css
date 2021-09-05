@@ -1,0 +1,182 @@
+body {
+  background-image: url("bg.jpg");
+  width: 100vh;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.c-1 {
+  position: absolute;
+  left: 650px;
+  top: 300px;
+  height: 400px;
+  width: 400px;
+  animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+.c-2 {
+  position: absolute;
+  left: 60px;
+  top: 30px;
+  height:300px;
+  width: 400px;
+
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+  
+}
+
+
+
+
+.c-3 {
+  position: absolute;
+  left: 434px;
+  top: 400px;
+  height:30px;
+  width: 40px;
+
+  animation: rotation .4s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+
+}
+
+.c-4 {
+  position: absolute;
+  left: 60px;
+  top: 500px;
+  height:500px;
+  width: 700px;
+
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+
+}
+
+.c-5 {
+  position: absolute;
+  left: 650px;
+  top: 10px;
+  height: 200px;
+  width: 200px;
+
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.c-6 {
+  position: absolute;
+  left: 1200px;
+  top: 500px;
+  height: 200px;
+  width: 100px;
+
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(2deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.c-7 {
+  position: absolute;
+  left: 1500px;
+
+  animation: rotation 12s infinite linear;
+  }
+
+  .c-8 {
+    position: absolute;
+  left: 900px;
+  top: 750px;
+  width: 400px;
+
+  animation: rotation 1s infinite linear;
+  }
+
+  .c-9 {
+    position: absolute;
+  left: 1100px;
+  top: 70px;
+  height: 50px;
+  width: 100px;
+  
+  animation: rotation 0.5s infinite linear;
+
+  }
+
+  .c-10 {
+    position: absolute;
+  left: 1100px;
+  top: 250px;
+  height: 100px;
+  width: 300px;
+
+  animation: rotation 4s infinite linear;
+  }
+
+
+  .c-11 {
+    position: absolute;
+  left: 1400px;
+  top: 500px;
+  height: 200px;
+  width: 600px;
+
+  animation: rotation 3s infinite linear;
+  }
+
+  .c-12 {
+    position: absolute;
+    top: 300px;
+
+    animation: rotation 10s infinite linear;
+  }
